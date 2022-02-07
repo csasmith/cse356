@@ -2,7 +2,7 @@ server {
        listen 80;
        listen [::]:80;
 
-       server_name _;
+       server_name hw1;
 	
        root /var/www/hw1;
        index hw0.html;
