@@ -5,7 +5,7 @@ server {
        server_name _;
 	
        root /var/www/hw1;
-       index hw1.html;
+       index hw0.html;
 
        location / {
                try_files $uri $uri/ =404;
