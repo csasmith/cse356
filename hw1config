@@ -2,10 +2,10 @@ server {
        listen 80;
        listen [::]:80;
 
-       server_name hw1chris;
+       server_name _;
 	
-       root /var/www/hw0;
-       index hw0.html;
+       root /var/www/hw1;
+       index hw1.html;
 
        location / {
                try_files $uri $uri/ =404;
